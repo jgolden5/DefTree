@@ -9,15 +9,15 @@ class DefinitionQueue {
     defs = new ArrayDeque<String>();
   }
 
-  private addDef(String defToAdd) {
+  private void addDef(String defToAdd) {
     defs.add(defToAdd);
   }
 
-  private removeDef(String defToRemove) {
+  private void removeDef(String defToRemove) {
     defs.removeFirstOccurrence(defToRemove);
   }
 
-  private clearDefQueue() {
+  private void clearDefQueue() {
     //add user confirmation here someday
     defs.clear();
   }
