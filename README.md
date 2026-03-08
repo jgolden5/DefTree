@@ -1,4 +1,4 @@
-# DefTree: Define every piece of info until I know it all
+# DefLog: Define every piece of info until I know it all
 ## Purpose:
 The goal of this project is to dissect every word in a definition until I understand all of them by breaking down each term more and more until it gets to such fundamental concepts that I understand how all of it works. Every definition should eventually resolve to these "root" definitions, which are words that I already understand and therefore need no definition. Circular definitions should be impossible, and I will implement mechanisms to ensure this. Some definitions may be many layers deep and may be either complete or incomplete. A definition is complete when all of its branches resolve to roots. A definition's "branch" is basically any "sub-definition", or any word in its definition that is NOT a root, where root is defined as a word in the definition which I already know to such a degree that writing its definition would be redundant.
 
@@ -36,7 +36,7 @@ The goal of this project is to dissect every word in a definition until I unders
 _User may break from definitionQueue and choose to continue later and the definitionQueue will be saved for later. DefinitionQueue can also be manually added to or deleted from_
 
 ### Read definition
-_Read the definition of some term with syntax coloring, and the option to traverse its deftree by selecting from a list of options_
+_Read the definition of some term with syntax coloring, and the option to traverse its deflog by selecting from a list of options_
 * Example:
   * <p><span style="color:purple; font-weight: bold">Compiler</span> - a program that translates code writtten in a <span style="color:orange">high-level</span> programming language into <span style="color:orange">machine-readable-instructions</span>.</p>
 
